@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.activity:activity-ktx:1.2.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/61d9b3b7be75e64f0a03506d7aec4728/transformed/activity-ktx-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/61d9b3b7be75e64f0a03506d7aec4728/transformed/activity-ktx-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a5af6ef61cce67bc05cf6205139dd934/transformed/activity-ktx-1.2.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/1d171672918939d5e062fdc8f1376ea0/transformed/activity-ktx-1.2.3/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/1d171672918939d5e062fdc8f1376ea0/transformed/activity-ktx-1.2.3/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/29588bd772e7a8ede59218057b5d42a5/transformed/activity-ktx-1.2.3/res" />
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/29588bd772e7a8ede59218057b5d42a5/transformed/activity-ktx-1.2.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/29588bd772e7a8ede59218057b5d42a5/transformed/activity-ktx-1.2.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/modules-2/files-2.1/androidx.activity/activity-ktx/1.2.3/8de8463662d207920c11530ec0e76af3005f0061/activity-ktx-1.2.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

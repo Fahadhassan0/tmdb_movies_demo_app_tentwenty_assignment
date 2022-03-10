@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.loader:loader:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/c2b124e9c9c4fc919728525643e542ad/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/c2b124e9c9c4fc919728525643e542ad/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d71e48f9f14d2ec89ddf5532680614ca/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e8d78942842e4749837a1f33ca3e068b/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/e8d78942842e4749837a1f33ca3e068b/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/18d8ecda17a6cbc5f98e708ed56eb15c/transformed/loader-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/18d8ecda17a6cbc5f98e708ed56eb15c/transformed/loader-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/18d8ecda17a6cbc5f98e708ed56eb15c/transformed/loader-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/modules-2/files-2.1/androidx.loader/loader/1.0.0/b9ef587f3e46c7fe5b00264989764e43ff45cada/loader-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

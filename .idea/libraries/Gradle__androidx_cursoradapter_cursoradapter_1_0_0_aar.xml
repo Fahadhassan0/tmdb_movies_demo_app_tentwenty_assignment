@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.cursoradapter:cursoradapter:1.0.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/7e9534dddeeb958385c889f03968e8be/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/7e9534dddeeb958385c889f03968e8be/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/805c42bd9dfe5d369f38c22edf202001/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/af11966b09b302805e3cf6788f225a1d/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/af11966b09b302805e3cf6788f225a1d/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/72539cc50e74a35ceb7ccca278e02059/transformed/cursoradapter-1.0.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/72539cc50e74a35ceb7ccca278e02059/transformed/cursoradapter-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/72539cc50e74a35ceb7ccca278e02059/transformed/cursoradapter-1.0.0/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/modules-2/files-2.1/androidx.cursoradapter/cursoradapter/1.0.0/1e323083b41c31fd4d45510dfce50614963c3c6c/cursoradapter-1.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

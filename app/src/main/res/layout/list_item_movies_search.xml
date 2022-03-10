@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<data>
+
+    <variable
+        name="clickListener"
+        type="android.view.View.OnClickListener" />
+
+    <variable
+        name="movieItem"
+        type="com.tmdb.movies.demo.data.MovieItem" />
+
+</data>
+
+<com.google.android.material.card.MaterialCardView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/movie_search_card_margin"
+    android:onClick="@{clickListener}"
+    app:cardCornerRadius="@dimen/card_corner_radius"
+    app:cardPreventCornerOverlap="false"
+    app:strokeWidth="@dimen/card_stroke_width">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/plant_photo"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/movie_search_item_height"
+            android:contentDescription="@string/content_description_movie"
+            android:scaleType="centerCrop"
+            app:imageFromUrl="@{movieItem.posterPath}"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_overlay"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:contentDescription="@string/content_description_movie"
+            android:scaleType="centerCrop"
+            android:src="@color/overlay_color"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/plant_photo" />
+
+
+        <TextView
+            android:id="@+id/photographer"
+            style="@style/text_style_normal"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/movie_item_text_side_margin"
+            android:layout_marginBottom="@dimen/movie_item_text_margin_bottom"
+            android:text="@{movieItem.title}"
+            android:maxLines="1"
+            android:ellipsize="end"
+            android:textColor="@color/white"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textSize="@dimen/movie_search_item_text_size"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</com.google.android.material.card.MaterialCardView>
+
+</layout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/text_style_normal"
+    android:layout_width="wrap_content"
+    android:id="@+id/tvGenre"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_search"
+    android:backgroundTint="@color/genre_pink"
+    android:text="@string/label_watch"
+    android:textSize="@dimen/genre_text_size"
+    android:layout_margin="@dimen/genre_text_margin"
+    android:paddingHorizontal="@dimen/genre_text_padding_horizontal"
+    android:textColor="@color/white">
+
+</TextView>

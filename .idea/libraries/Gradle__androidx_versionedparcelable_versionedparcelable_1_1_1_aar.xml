@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.versionedparcelable:versionedparcelable:1.1.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/a9f04ee63a17e1dbeb5ff3c71c7ba76b/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/a9f04ee63a17e1dbeb5ff3c71c7ba76b/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/d074de2e5a281f3bc5a5765c8ca9d730/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/f402c227810f854944e859f834a3003b/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/f402c227810f854944e859f834a3003b/transformed/versionedparcelable-1.1.1/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/1cd90781da46bea9f3232cc7e5dc7e81/transformed/versionedparcelable-1.1.1/res" />
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/1cd90781da46bea9f3232cc7e5dc7e81/transformed/versionedparcelable-1.1.1/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/1cd90781da46bea9f3232cc7e5dc7e81/transformed/versionedparcelable-1.1.1/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/modules-2/files-2.1/androidx.versionedparcelable/versionedparcelable/1.1.1/d9085927216387af679d18b6f472bc0fc5c7cc81/versionedparcelable-1.1.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

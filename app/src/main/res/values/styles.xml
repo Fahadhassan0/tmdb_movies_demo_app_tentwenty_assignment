@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="text_style_light" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/poppins_light</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="text_style_normal" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="text_style_bold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/poppins_bold</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="text_style_medium" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/poppins_medium</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="text_style_semi_bold" parent="Widget.MaterialComponents.TextView">
+        <item name="android:fontFamily">@font/poppins_semibold</item>
+        <item name="android:textColor">@color/text_color_dark</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">3dp</item>
+        <item name="android:paddingBottom">0dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.App.CornerSize10Percent" parent="">
+        <item name="cornerSize">5%</item>
+    </style>
+
+    <style name="background_style">
+        <item name="android:background">@color/background_color</item>
+    </style>
+
+    <style name="outlined_button_style" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textSize">@dimen/movie_button_text_size</item>
+        <item name="android:layout_height">@dimen/movies_button_height</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="normal_button_style" parent="Widget.MaterialComponents.Button">
+        <item name="fontFamily">@font/poppins</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:layout_height">@dimen/movies_button_height</item>
+        <item name="cornerRadius">@dimen/card_corner_radius</item>
+        <item name="android:textSize">@dimen/movie_button_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+</resources>

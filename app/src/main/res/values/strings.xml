@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">TMDB Movies Demo</string>
+
+    <string name="tab_text_1">Videos</string>
+    <string name="tab_text_2">Folders</string>
+    <string name="tab_text_3">Recent</string>
+
+    <string name="label_watch">Watch</string>
+    <string name="label_no_result">No result found.</string>
+    <string name="label_movies">Movies</string>
+
+    <string name="content_description_movie">Movie Button</string>
+    <string name="content_description_search">Search Button</string>
+    <string name="content_description_back">Back Button</string>
+    <string name="hint_search">Search</string>
+    <string name="label_search">Search</string>
+    <string name="label_movie_details">Movie Details</string>
+    <string name="label_watch_trailer">Watch Trailer</string>
+    <string name="label_get_tickets">Get Tickets</string>
+    <string name="label_genres">Genres</string>
+    <string name="label_overview">Overview</string>
+</resources>

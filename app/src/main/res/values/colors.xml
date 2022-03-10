@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--   primary colors-->
+    <color name="colorPrimaryDark">#2E2739</color>
+    <color name="colorPrimary">#61C3F2</color>
+    <color name="colorAccent">#827D88</color>
+
+    <!--   text colors-->
+    <color name="text_color_dark">#202C43</color>
+    <color name="text_color_light">#DBDBDF</color>
+    <color name="text_color_normal">#8F8F8F</color>
+
+    <!--   background colors-->
+    <color name="background_color">#F6F6FA</color>
+    <color name="search_background_color">#F2F2F6</color>
+
+    <!--   common colors-->
+    <color name="black">#FF000000</color>
+    <color name="black_transparent">#80000000</color>
+    <color name="overlay_color">#40000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="grey_light">#FFFFFFFF</color>
+
+    <!--   genres colors-->
+    <color name="genre_green">#15D2BC</color>
+    <color name="genre_pink">#E26CA5</color>
+    <color name="genre_purple">#564CA3</color>
+    <color name="genre_golden">#CD9D0F</color>
+
+
+</resources>

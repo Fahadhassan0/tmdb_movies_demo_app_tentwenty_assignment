@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Fahad Hassan/OziProjects/VideoPlayer/app/src/main/res/layout/fragment_folders.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/OziProjects/VideoPlayer/app/src/main/res/layout/fragment_videos.xml" value="0.15833333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/OziProjects/VideoPlayer/app/src/main/res/layout/item_folder.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/bg_search.xml" value="0.1165" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/ic_back.xml" value="0.1" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/ic_more.xml" value="0.1085" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/ic_overlay.xml" value="0.1085" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/ic_play.xml" value="0.1" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/ic_shadow.xml" value="0.1085" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/drawable/search_bg.xml" value="0.1085" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins_bold.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins_light.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins_medium.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins_semibold.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/activity_main.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/dialog_video.xml" value="0.17447916666666666" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/font_certs.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/fragment_movie_details.xml" value="0.2" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/fragment_movies.xml" value="0.2" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/item_folder.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/item_video.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_genres.xml" value="0.75" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_movie_search.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_movies.xml" value="0.25" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_movies_search.xml" value="0.18958333333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.12" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.customview:customview:1.1.0@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/e15a1233e7c3a30bb1b46d5e484c23dc/transformed/customview-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/e15a1233e7c3a30bb1b46d5e484c23dc/transformed/customview-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/81adc08e502068043f1c5d19609c6e00/transformed/customview-1.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/b0cbde3fdb6c0db7f9e0e5bbe61fd3f8/transformed/customview-1.1.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/b0cbde3fdb6c0db7f9e0e5bbe61fd3f8/transformed/customview-1.1.0/res" />
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/ddd5cbef05ec12cfac916faf24d7a12e/transformed/customview-1.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/ddd5cbef05ec12cfac916faf24d7a12e/transformed/customview-1.1.0/res" />
+      <root url="file://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/transforms-3/ddd5cbef05ec12cfac916faf24d7a12e/transformed/customview-1.1.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AndroidProjects/AllaqaShopApp/Allaqa-Shop/gradle/caches/modules-2/files-2.1/androidx.customview/customview/1.1.0/be631aafb1eb3f64c9cc57083a21a3321cf2e2e1/customview-1.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

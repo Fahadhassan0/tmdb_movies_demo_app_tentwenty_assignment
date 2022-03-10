@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="movieItem"
+            type="com.tmdb.movies.demo.data.MovieDetail" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:fitsSystemWindows="false">
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:overScrollMode="never"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/movie_info_padding_horizontal">
+
+
+                <TextView
+                    android:id="@+id/tv_genre_heading"
+                    style="@style/text_style_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/movie_heading_margin_top"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="@string/label_genres"
+                    android:textSize="@dimen/movie_item_text_size" />
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/recyclerViewGenre"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/genre_recycler_margin_top"
+                    android:orientation="horizontal"
+                    app:layoutManager="com.google.android.flexbox.FlexboxLayoutManager"
+                    tools:listitem="@layout/list_item_genres" />
+
+                <View
+                    android:id="@+id/divider"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_marginTop="@dimen/divider_margin_top"
+                    android:background="@color/background_color"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+                <TextView
+                    android:id="@+id/tv_overview_heading"
+                    style="@style/text_style_normal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/movie_heading_margin_top"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:text="@string/label_overview"
+                    android:textSize="@dimen/movie_item_text_size" />
+
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    style="@style/text_style_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/movie_description_margin_top"
+                    android:ellipsize="end"
+                    android:text="@{movieItem.overview}"
+                    android:textColor="@color/text_color_normal"
+                    android:textSize="@dimen/movie_description_text_size" />
+
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/iv_movie_poster"
+                        imageFromUrl="@{movieItem.posterPath}"
+                        android:layout_width="0dp"
+                        android:layout_height="0dp"
+                        android:contentDescription="@string/content_description_movie"
+                        android:scaleType="centerCrop"
+                        app:layout_collapseMode="parallax"
+                        app:layout_constraintDimensionRatio="H,1:1"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        tools:src="@tools:sample/avatars" />
+
+
+                    <TextView
+                        android:id="@+id/tv_release_date"
+                        style="@style/text_style_normal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginHorizontal="@dimen/movie_item_text_side_margin"
+                        android:layout_marginBottom="@dimen/release_date_text_margin_bottom"
+                        android:gravity="center"
+                        android:text="@{movieItem.releaseDate}"
+                        android:textColor="@color/white"
+                        android:textSize="18sp"
+                        app:layout_constraintBottom_toTopOf="@+id/btn_get_tickets"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+
+
+                    <ImageView
+                        android:id="@+id/iv_shadow"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:contentDescription="@string/content_description_movie"
+                        android:scaleType="centerCrop"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="1.0"
+                        tools:src="@drawable/ic_shadow" />
+
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btn_get_tickets"
+                        style="@style/normal_button_style"
+                        android:layout_width="@dimen/movies_button_width"
+                        android:layout_above="@+id/btnWatchTrailer"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/movies_button_margin_bottom"
+                        android:text="@string/label_get_tickets"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        app:layout_constraintBottom_toTopOf="@+id/btnWatchTrailer"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent" />
+
+                    <!--Watch Trailer Button-->
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/btnWatchTrailer"
+                        style="@style/outlined_button_style"
+                        android:layout_width="0dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="@dimen/movie_trailer_button_margin_bottom"
+                        android:gravity="center"
+                        android:paddingHorizontal="@dimen/watch_trailer_button_padding_horizontal"
+                        android:text="@string/label_watch_trailer"
+                        android:textAllCaps="false"
+                        android:textColor="@color/white"
+                        app:cornerRadius="@dimen/card_corner_radius"
+                        app:icon="@drawable/ic_play"
+                        app:iconTint="@color/white"
+                        app:layout_constraintBottom_toBottomOf="@+id/iv_movie_poster"
+                        app:layout_constraintEnd_toEndOf="@+id/btn_get_tickets"
+                        app:layout_constraintStart_toStartOf="@+id/btn_get_tickets"
+                        app:strokeColor="@color/colorPrimary"
+                        app:strokeWidth="1dp" />
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="@android:color/transparent"
+                    app:layout_collapseMode="pin"
+                    app:navigationIcon="@drawable/ic_back"
+                    app:navigationIconTint="@color/white">
+
+                    <TextView
+                        android:id="@+id/tv_title"
+                        style="@style/text_style_normal"
+                        android:text="@string/label_watch"
+                        android:textColor="@color/white"
+                        android:textSize="@dimen/movie_item_text_size">
+
+                    </TextView>
+                </com.google.android.material.appbar.MaterialToolbar>
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>
