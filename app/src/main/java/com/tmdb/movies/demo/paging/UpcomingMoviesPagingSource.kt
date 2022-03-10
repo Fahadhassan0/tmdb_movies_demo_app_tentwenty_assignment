@@ -31,6 +31,8 @@ class UpcomingMoviesPagingSource(
             LoadResult.Error(exception)
         } catch (exception: HttpException) {
             LoadResult.Error(exception)
+        } catch (exception: NullPointerException) {
+            LoadResult.Error(exception)
         }
     }
 

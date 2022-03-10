@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.activityViewModels
+import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.tmdb.movies.demo.R
 import com.tmdb.movies.demo.base.BaseFragment
@@ -21,7 +22,7 @@ class MoviesFragment : BaseFragment() {
 
     @Inject
     lateinit var adapter: MoviesAdapter
-    private val moviesViewModel: MoviesViewModel by activityViewModels()
+    private val moviesViewModel: MoviesViewModel by viewModels()
     private var _binding: FragmentMoviesBinding? = null
     private val binding get() = _binding!!
 

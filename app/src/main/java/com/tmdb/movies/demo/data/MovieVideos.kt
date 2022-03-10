@@ -8,10 +8,10 @@ data class MovieVideos(
 	val id: Int? = null,
 
 	@field:SerializedName("results")
-	val results: List<ResultsItem?>? = null
+	val results: List<MovieVideoItem?>? = null
 )
 
-data class ResultsItem(
+data class MovieVideoItem(
 
 	@field:SerializedName("site")
 	val site: String? = null,

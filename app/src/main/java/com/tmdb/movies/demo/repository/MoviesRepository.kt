@@ -36,7 +36,7 @@ class MoviesRepository @Inject constructor(
 
     fun getSearchMovies(query: String?): LiveData<PagingData<MovieItem>> {
         return Pager(config = PagingConfig(
-            pageSize = 20, maxSize = 100
+            pageSize = 20, maxSize = 500
         ),
             pagingSourceFactory = {
                 MoviesSearchPagingSource(apiService, query)
@@ -46,7 +46,7 @@ class MoviesRepository @Inject constructor(
 
     fun getUpcomingMovies(): LiveData<PagingData<MovieItem>> {
         return Pager(config = PagingConfig(
-            pageSize = 20, maxSize = 100
+            pageSize = 20, maxSize = 500
         ),
             pagingSourceFactory = {
                 UpcomingMoviesPagingSource(apiService)

@@ -19,6 +19,7 @@
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins_medium.xml" value="0.20092592592592592" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/font/poppins_semibold.xml" value="0.20092592592592592" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/activity_main.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/dialog_movie_trailer.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/dialog_video.xml" value="0.17447916666666666" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/font_certs.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/fragment_movie_details.xml" value="0.2" />
@@ -30,6 +31,7 @@
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_movie_search.xml" value="0.18958333333333333" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_movies.xml" value="0.25" />
         <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/list_item_movies_search.xml" value="0.18958333333333333" />
+        <entry key="..\:/Users/Fahad Hassan/TenTwentyProjects/VideoPlayer/app/src/main/res/layout/video_dialog.xml" value="0.18958333333333333" />
       </map>
     </option>
   </component>

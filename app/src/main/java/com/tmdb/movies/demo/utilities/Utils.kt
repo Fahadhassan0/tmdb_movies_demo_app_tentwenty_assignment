@@ -1,6 +1,8 @@
 package com.tmdb.movies.demo.utilities
 
 import android.widget.ImageView
+import android.widget.Toast
+import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 
@@ -11,5 +13,10 @@ fun loadImage(imageView: ImageView, content: Any?) {
         .transition(DrawableTransitionOptions.withCrossFade())
         .into(imageView)
 }
+
+fun Fragment.toast(message: String, duration: Int = Toast.LENGTH_SHORT) {
+    Toast.makeText(requireContext(), message, duration).show()
+}
+
 
 

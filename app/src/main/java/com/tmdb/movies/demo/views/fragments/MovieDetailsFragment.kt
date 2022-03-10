@@ -6,13 +6,17 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.content.ContextCompat
 import androidx.fragment.app.activityViewModels
+import androidx.fragment.app.viewModels
 import androidx.navigation.findNavController
 import androidx.navigation.fragment.navArgs
 import com.google.android.material.appbar.AppBarLayout.OnOffsetChangedListener
 import com.tmdb.movies.demo.R
 import com.tmdb.movies.demo.base.BaseFragment
 import com.tmdb.movies.demo.data.MovieDetail
+import com.tmdb.movies.demo.data.MovieVideos
 import com.tmdb.movies.demo.databinding.FragmentMovieDetailsBinding
+import com.tmdb.movies.demo.dialog.MovieTrailerDialog
+import com.tmdb.movies.demo.utilities.toast
 import com.tmdb.movies.demo.viewmodels.MoviesViewModel
 import com.tmdb.movies.demo.views.adapters.GenresAdapter
 import dagger.hilt.android.AndroidEntryPoint
@@ -25,10 +29,11 @@ class MovieDetailsFragment : BaseFragment() {
 
     @Inject
     lateinit var adapter: GenresAdapter
-    private val moviesViewModel: MoviesViewModel by activityViewModels()
+    private val moviesViewModel: MoviesViewModel by viewModels()
     private var _binding: FragmentMovieDetailsBinding? = null
     private val binding get() = _binding!!
     private val args: MovieDetailsFragmentArgs by navArgs()
+    private var movieTrailer: MovieVideos? = null
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
@@ -39,9 +44,21 @@ class MovieDetailsFragment : BaseFragment() {
     }
 
     override fun clicks() {
-        binding.toolbar.setNavigationOnClickListener {
-            it.findNavController().navigateUp()
+        binding.apply {
+            toolbar.setNavigationOnClickListener {
+                binding.root.findNavController().navigateUp()
+            }
+
+            btnWatchTrailer.setOnClickListener {
+                if (!movieTrailer?.results.isNullOrEmpty()) {
+                    val videoDialog = MovieTrailerDialog(movieTrailer?.results?.get(0)?.id)
+                    videoDialog.show(childFragmentManager, null)
+                } else {
+                    toast(getString(R.string.message_no_video_found))
+                }
+            }
         }
+
     }
 
     override fun initRef() {
@@ -66,9 +83,16 @@ class MovieDetailsFragment : BaseFragment() {
 
         //videos adapter
         initAdapter()
-
         //get movies
         getMovies()
+        //get movie videos
+        getMovieTrailers()
+    }
+
+    private fun getMovieTrailers() {
+        moviesViewModel.getMovieVideos(args.movieId).observe(this) {
+            movieTrailer = it
+        }
     }
 
     private fun updateToolbarUi(color: Int) {
@@ -88,7 +112,7 @@ class MovieDetailsFragment : BaseFragment() {
     }
 
     private fun getMovies() {
-        moviesViewModel.getMovieById(args.movieId).observe(viewLifecycleOwner) {
+        moviesViewModel.getMovieById(args.movieId).observe(this) {
             handleResult(it)
         }
     }
@@ -97,15 +121,14 @@ class MovieDetailsFragment : BaseFragment() {
 
         binding.apply {
             movieItem = it
-            executePendingBindings()
             adapter.submitList(it?.genres)
+            executePendingBindings()
         }
     }
 
 
     private fun initAdapter() {
         binding.recyclerViewGenre.adapter = adapter
-        binding.recyclerViewGenre.setHasFixedSize(true)
     }
 
 

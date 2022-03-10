@@ -9,7 +9,7 @@
     <string name="label_no_result">No result found.</string>
     <string name="label_movies">Movies</string>
 
-    <string name="content_description_movie">Movie Button</string>
+    <string name="content_description_movie">Movie</string>
     <string name="content_description_search">Search Button</string>
     <string name="content_description_back">Back Button</string>
     <string name="hint_search">Search</string>
@@ -19,4 +19,5 @@
     <string name="label_get_tickets">Get Tickets</string>
     <string name="label_genres">Genres</string>
     <string name="label_overview">Overview</string>
+    <string name="message_no_video_found">No video trailer found</string>
 </resources>

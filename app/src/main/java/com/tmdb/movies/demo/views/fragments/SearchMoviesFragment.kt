@@ -62,7 +62,7 @@ class SearchMoviesFragment : BaseFragment() {
 
     //calling movies search api
     private fun searchMovies(newText: String?) {
-        moviesViewModel.getSearchMovies(newText).observe(viewLifecycleOwner) {
+        moviesViewModel.getSearchMovies(newText).observe(this) {
             adapter.submitData(viewLifecycleOwner.lifecycle, it)
 
         }
